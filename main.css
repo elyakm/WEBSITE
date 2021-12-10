@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(130, 215, 255, 0.795);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 40, 87);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: rgb(103, 169, 255);
+  }
+
+  ul {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+
+  <style>
+  body {
+    background-image: url('IMG/1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+  </style>
